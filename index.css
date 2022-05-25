@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,500&family=Courier+Prime&family=Roboto+Serif:wght@300&display=swap');
+
+.body{
+   background-image: url(./Images/fondo.png);
+   font-family: 'Chakra Petch', sans-serif;
+  color: white;
+  font-weight: 300;
+  line-height: 1;
+  margin: 10px;
+  background-attachment: fixed;
+  max-width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+.logo{
+        width: 155px;
+        height: 250px;
+        overflow: hidden;
+}
+.logo img{
+        width: 150px;
+        height: auto;
+        
+}
+
+ul {
+  list-style: none;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.nav-bar-container{
+ border-radius: 50px;
+ background: #a4003b;
+
+}
+#nav-bar{
+  margin: 20px 0px 0px 0px;
+
+}
+li{
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+.nav-text-link{
+  color: #afa89d;
+  font-size: 22px;
+  text-decoration: none;
+  
+}
+a{
+  color:white;
+
+}
+a.nav-text-link:hover{
+  font-size:30px;
+  color:#e3b015;
+}
+.mail-div{
+  width: 300px;
+  height: auto;
+  font-family: serif;
+}
+
+.mail-div h2{
+  text-align: justify;
+  font-size: 12px;
+}
+.btn{
+  color: black;
+  font-size: 13px;
+  background: #b0a99e;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+#entrenamiento {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#titles-actividades{
+  font-size: 40px;
+  margin: 0px 0px 10px 0px;
+}
+
+.horario-link{
+  font-size: 15px;
+  color: white;
+}
+#act-title{
+  font-size: 25px;
+  margin: 30px 0px 0px 0px;
+  
+}
+
+#indexVideo{
+  align-items: center!important;
+  text-align: center;
+  margin: 30px 0px 0px 5%;
+  width: 90%;
+  height: auto;
+}
+.iframe-container {
+  display: block;
+  text-align:center;
+    width:100%;
+}
+#act-text{
+ font-size: 18px;
+  text-align: justify;
+
+}
+#boxImg{
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
+
+.flex-child {
+  flex: 1;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
+
+#container-horarios{
+  margin-top: 30px;
+}
+
+#horarios-title{
+  font-size: 40px;
+
+}
+
+#horarios-img{
+
+  width: 90%;
+  height: auto;
+  position: relative;
+  top: 50%;
+
+}
+.list-group div {
+  margin: 0px 5px 0px 15px;
+  padding: 25px 0px 25px 10px;
+}
+
+.form-container{
+  margin: 50px 17% 0px 17%;
+  font-size: 17px;
+  
+}
+.form-group {
+  padding: 0px 0px 20px 0px;
+  
+}
+.form-group label{
+  padding: 0px 0px 20px 3px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem 5px 0px;
+  color: black;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.menu-actividades{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.botonesRegistro {
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.7em 2em;
+  border: 3px solid #a4003b;
+  border-radius: 2px;
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+  background-color: #48494b;
+ }
+ 
+#registro-botones{
+ 
+  margin-top: 10px;
+}
+#textoDeAcceso{
+    position: relative;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    color: #a4003b;
+}
+ .botonesRegistro:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #a4003b;
+  z-index: -1;
+  
+  
+ }
+ 
+ .botonesRegistro:hover, .botonesRegistro:focus {
+  color: white;
+  
+ }
+ 
+ .botonesRegistro:hover:before, .botonesRegistro:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  
+ }
+ 
+ .botonesRegistro:active {
+  transform: scale(0.9);
+  
+ }
+
+#divIngresar{
+   display: none;
+ }
+
+
+ #boton-carrito {
+  border: none;
+  color: black;
+  font-size: 40px;
+  background-color: #e14c41;
+  border-radius: 40%;
+  padding: 10px 10px;
+  transition: all 0.3s;
+  margin-top: -10px;
+}
+#contadorCarrito{
+  margin-right: 5px;
+}
+#boton-carrito:hover {
+  cursor: pointer;
+  color: white;
+  border-radius: 20%;
+  background-color: rgb(225, 76, 65);
+}
+#boton-carrito:focus {
+  outline: none;
+  border-radius: 20%;
+}
+#search{
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem 5px 0px;
+  color: black;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+#selCategorias{
+  text-align: center;
+  width: 70%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem 5px 0px;
+  color: black;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+#seleccion{
+  text-align-last: center;
+}
+
+.modal-carrito {
+  position: relative;
+  background-color: #48494b;
+  border: 1px solid rgb(225, 76, 65);
+  min-width: 500px;
+  padding: 20px;
+  margin-top: 00%;
+  transition: all 0.5s;
+  display: block;
+}
+
+
+
+.modal-carrito h3 {
+  color: rgb(225, 76, 65);
+  padding-bottom: 5px;
+}
+.modal-carrito #carritoCerrar  {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  width: 10%;
+  color: rgb(225, 76, 65);
+  border: none;
+  background-color: transparent;
+  
+  
+}
+#pagoCerrar{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  width: 10%;
+  color: rgb(225, 76, 65);
+  border: none;
+  background-color: transparent;
+  margin-left: -30px;
+}
+#carritoCerrar{
+  margin-left: 70%;
+}
+.modal-carrito #carritoCerrar:hover {
+  cursor: pointer;
+}
+.modal-carrito #carritoCerrar:focus {
+  outline: none;
+}
+.modal-carrito .precioProducto {
+  padding-top: 10px;
+}
+
+.imgCarrito{
+  width: 20%;
+  height: auto;
+  margin-top: -5px;
+}
+#fondo{
+  background-color: #323232;
+  
+}
+
+.modal-pago{
+  position: relative;
+  background-color: #48494b;
+  border: 1px solid rgb(225, 76, 65);
+  min-width: 500px;
+  padding: 20px;
+  margin-top: 00%;
+  transition: all 0.5s;
+  display: block;
+}
+
+.creditCardImage {
+  width: 425px;
+  position: absolute;
+  top: -125px;
+  left: 100px;
+  z-index: 1;
+}
+
+.card-image-shadow {
+  position: absolute;
+  width: 410px;
+  height: 253px;
+  top: -113px;
+  left: 107px;
+  border-radius: 15px;
+  box-shadow: -5px 10px 32px 0px #000;
+  z-index: 0;
+}
+
+
+.card-content{
+  margin: 5px 0px 0px 10px;
+}
+.card-title {
+  margin: 0px 0px 0px 5px;
+  color: rgb(225, 76, 65);
+  position: unset;
+  height: 100px;
+  width: auto;
+}
+.card img{
+  width: 100%;
+  height: auto;
+  border: 2px solid rgb(59, 25, 25);
+  margin-bottom: 10px;
+}
+.card-image{
+  margin: 5px 5px 5px 5px;
+}
+.producto {
+  max-width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.productoEnCarrito {
+  border-left: 5px solid lightblue;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 30px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.productoEnCarrito:hover {
+  border-left: 5px solid rgb(225, 76, 65);
+}
+
+.boton-eliminar {
+  background-color: transparent;
+  color: red;
+  border: none;
+  font-size: 20px;
+  width: 10%;
+  margin-right: -12px;
+  margin-top: -30px;
+
+}
+
+.boton-eliminar:hover {
+  cursor: pointer;
+}
+.boton-eliminar:focus {
+  outline: none;
+}
+
+#contenedor-productos {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#carrito-contenedor{
+  margin-top: 20px;
+}
+
+.modal-contenedor {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+.modal-active {
+  opacity: 1;
+  visibility: visible;
+}
+.modal-contenedor2 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  opacity: 0;
+  visibility: hidden;
+
+}
+.modal-active2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.imgCerrar{
+  width: 20px;
+  height: auto;
+  align-items: center;
+  
+}
+.imgEliminar{
+  width: 20px;
+  height: auto;
+  align-items: center;
+}
+
+.agregarTxt{
+  text-decoration: none;
+  color: #e3b015;
+}
+.agregarTxt:hover{
+  color: #1f9b2f;
+}
+
+#horarioFuncional, #horarioBoxeo, #horarioPilates, #horarioZumba, #horarioMusc{
+  text-decoration: none;
+  color: #e3b015;
+}
+
+#horarioFuncional:hover, #horarioBoxeo:hover, #horarioPilates:hover, #horarioZumba:hover, #horarioMusc:hover
+{
+  cursor: pointer;
+}
+
+.botonAAC{
+  margin: 0px 0px 20px 10px;
+}
+
+.botonAAC:hover{
+  cursor: pointer;
+}
+#image-profesores{
+  border-radius: 2%;
+}
+#recuadroProfes{
+  margin-bottom: 20px;
+  max-width: 400px;
+  min-width: 320px;
+  height: 790px;
+  border: 2px solid #a4003b;
+  background-color: transparent;
+  border-radius: 2%;
+}
+.profText{
+  margin: 10px 10px 10px 10px;
+}
+#ubicacion{
+  color: #e3b015;
+  text-decoration: none;
+  
+}
+#imageSucursales{
+  margin: 20px 0px 20px 0px;
+  display: flex;
+}

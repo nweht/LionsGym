@@ -1,0 +1,8 @@
+[
+    {"nombre":"Musculacion", "horario":"Lunes a Viernes de 7 a 22hs - Sabados de 9 a 14hs.","profesor":"Agustin Musculacion - Nacho Musculacion"},
+    {"nombre":"Boxeo", "horario":"Martes y Jueves de 18 a 20hs","profesor":"Roman Box"},
+    {"nombre":"Zumba", "horario":"Lunes, Miercoles y Jueves de 18:30 a 20hs - Martes y Jueves de 15:30 a 17hs.","profesor":"Paula Zumba"},
+    {"nombre":"Funcional", "horario":"Martes y Jueves de 20 a 21hs.","profesor":"Carolina Funcional"},
+    {"nombre":"Pilates", "horario":"Martes y Jueves de 8 a 10hs.","profesor":"Agustina Pilates"}
+]
+
